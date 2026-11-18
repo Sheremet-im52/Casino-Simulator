@@ -1,0 +1,8 @@
+{
+  "name": "casino-iterators-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Task 1: generators and timeout-based iterator consumption",
+  "author": "Vlad Sheremet",
+  "license": "MIT"
+}
