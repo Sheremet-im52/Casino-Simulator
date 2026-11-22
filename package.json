@@ -1,24 +1,11 @@
 {
-  "name": "casino-labs",
+  "name": "casino-library-example",
   "version": "1.0.0",
   "private": true,
-  "description": "Educational casino simulator demonstrating nine JavaScript tasks without Express",
-  "author": "Vlad Sheremet",
+  "description": "Separate example project using a local library dependency",
+  "main": "index.js",
   "license": "MIT",
-  "engines": {
-    "node": ">=22"
-  },
-  "scripts": {
-    "start": "node src/server.js",
-    "test": "node --test",
-    "demo:1": "node example/index.js",
-    "demo:2": "node example/index.js",
-    "demo:3": "node demos/task3.js",
-    "demo:4": "node demos/task4.js",
-    "demo:5": "node demos/task5.js",
-    "demo:6": "node demos/task6.js",
-    "demo:7": "node demos/task7.js",
-    "demo:8": "node demos/task8.js",
-    "demo:9": "node demos/task9.js"
+  "dependencies": {
+    "casino-iterators-lib": "file:../lib"
   }
 }
